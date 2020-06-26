@@ -8,7 +8,8 @@ cap = cv2.VideoCapture(0)
 global button_path
 face_model = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-print("For this model initial calibration was done by taking width of object to be 17cm and the distance of 30cm away from camera so as to calculate the focal length. And then this focal length was used for calculating distance between the object and camera.")
+print("For this model initial calibration was done by taking width of object to be 17cm and the distance of 30cm away from camera 
+      so as to calculate the focal length. And then this focal length was used for calculating distance between the object and camera.")
 
    
 def show_frame():
